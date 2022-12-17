@@ -1,17 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import BasicExample from "./components/Ex";
-import AlertDismissibleExample from "./components/Ex";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from "./components/ui/Navigation";
+import Header from "./components/Header/Header";
+import LoginStaff from "./components/Staff/LoginStaff/LoginStaff";
+import StaffAcc from "./components/Staff/StaffAcc";
+import StaffCatalogs from "./components/Staff/StaffCatalogs";
+import Admin from "./components/Admin/Admin";
+
 
 function App() {
   return (
-    <div className="App">
-      {/*<AlertDismissibleExample />*/}
-        <Navigation />
-    </div>
+      <div className="App">
+
+        {/*<Header />*/}
+        {/*  <LoginStaff />*/}
+        {/*   <StaffAcc/>*/}
+        {/* <StaffCatalogs />*/}
+<Admin />
+      </div>
   );
 }
 

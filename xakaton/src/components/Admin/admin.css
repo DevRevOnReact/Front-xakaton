@@ -1,0 +1,70 @@
+
+/*.admin-catalogs{*/
+/*    margin-top: 50px;*/
+/*    margin-left: -300px;*/
+/*}*/
+
+.admin-catalogs-item h2{
+    font-size: 26px;
+}
+
+/*.admin-catalogs-list{*/
+/*    margin-top: 20px;*/
+/*    display: flex;*/
+
+/*    flex-direction: column;*/
+/*    text-align: left;*/
+
+
+/*}*/
+
+
+
+/*.admin-catalogs-control{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.active{*/
+/*    background-color: grey;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*}*/
+
+/*.admin-catalogs-item-wrapper {*/
+/*    display: flex;*/
+/*    margin-left: -300px;*/
+/*}*/
+
+
+
+
+table.admin-catalogs{
+    text-decoration: none;
+    border-collapse:collapse;
+    width:100%;
+    text-align:center;
+}
+table.admin-catalogs th{
+    font-weight:normal;
+    font-size:14px;
+    color: #9a9999;
+    background-color:#000000;
+}
+table.admin-catalogs td{
+    font-size:18px;
+    color:#000000;
+}
+table.admin-catalogs td,table.admin-catalogs th{
+    white-space:pre-wrap;
+    padding:10px 5px;
+    line-height:13px;
+    vertical-align: middle;
+}
+table.admin-catalogs .admin-catalogs-list-item:hover{
+    background-color: #9a9999
+}
+table.admin-catalogs tr:hover td{
+    color:#000000;
+    cursor:default;
+}
